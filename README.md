@@ -1,7 +1,7 @@
 # Runner Assist Frontend
 This project was tasked to us by the University of Twente as a final project for the first year. We were working alongside TRIMM, who had developed sensors for runners to wear which would track their running performance on things like liftoff distance, lower leg impact, push-off force, and several other metrics. 
 
-Our task was to make sense of this and display it in a web dashboard such that a potential customer could view their running performance, see what they need to improve and what they are doing well. The ultimate goal was to generate useful feedback on how runners could improve.
+Our task was to make sense of the large amounts of data we were given, analyse it and display it in a web dashboard such that a potential customer could view their running performance, see what they need to improve and what they are doing well. The ultimate goal was to generate useful feedback on how runners could improve.
 
 We created the frontend (this repository, in ReactJS), the backend and API (a Java project in a separate private repository), as well as the database structure. Sample data to populate the database was provided to us.  
 
