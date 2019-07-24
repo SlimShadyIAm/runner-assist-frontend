@@ -1,3 +1,10 @@
+# Runner Assist Frontend
+This project was tasked to us by the University of Twente as a final project for the first year. We were working alongside TRIMM, who had developed sensors for runners to wear which would track their running performance on things like liftoff distance, lower leg impact, push-off force, and several other metrics. 
+
+Our task was to make sense of this and display it in a web dashboard such that a potential customer could view their running performance, see what they need to improve and what they are doing well. The ultimate goal was to generate useful feedback on how runners could improve.
+
+We created the frontend (this repository, in ReactJS), the backend and API (a Java project in a separate private repository), as well as the database structure. Sample data to populate the database was provided to us.  
+
 # Project Structure:
 + runner-assist
 +   - selenium: our selenium IDE tests
@@ -30,7 +37,7 @@ To start the frontend,
 
 ### Important notes for starting the frontend: 
 
-- You need an extension to get around a CORS error, as we were not able to find a solution around this in time; Download the following extension: 
+- You need an extension to get around a CORS error, at least during development; Download the following extension: 
     +  on Firefox, you can use [this extension](https://addons.mozilla.org/en-US/firefox/addon/access-control-allow-origin/)
     +  on Chrome, you can use [this extension](https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en)
 - You need the backend server running as well! See our other repo for instructions on how to get that running.
@@ -39,6 +46,8 @@ To start the frontend,
 ## Where to preview our app
 
 Our app is currently hosted on my AWS server, which you can find here: [trimm.farooq.xyz](https://trimm.farooq.xyz/)
+
+**This will probably stop working at some point, as the school will wipe our database**
 
 ** You may experience some issues logging in or creating new accounts. We're currently unable to replicate the issues, but there seems to be an intermittent issue with the password hashing. At the time of writing they seem to work.**
 
