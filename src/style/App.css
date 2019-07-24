@@ -1,0 +1,33 @@
+ .clickable {
+    cursor: pointer;
+ }
+ .title-caps {
+    font-variant: small-caps;
+    text-transform: capitalize;
+ }
+ .text-sm {
+    font-size: .5em;
+ }
+ .detail-chart {
+    padding: 1em;
+    min-height: 150px;
+ }
+.centered-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.centered-box.full {
+    min-height: 95vh;
+}
+.centered-box.part {
+    min-height: 75vh;
+}
+.centered-box > .ra-linear-loader-inner {
+    width: 30vw;
+    background-color: rgb(255, 133, 27);
+}
+.centered-box > .ra-linear-loader-inner > .ra-linear-loader-background {
+    background-color: rgb(255, 200, 153);
+}

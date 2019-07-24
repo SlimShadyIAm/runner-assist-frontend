@@ -1,0 +1,27 @@
+.map-container {
+    overflow: hidden;
+    max-height: 400px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+.run-map {
+    height: 400px;
+    width: 100%;
+}
+.modal-map-container {
+    overflow: hidden;
+    max-height: 400px;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-run-map {
+    height: 200px;
+    width: 100%;
+}

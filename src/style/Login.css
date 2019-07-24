@@ -1,0 +1,143 @@
+.login-outer {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background: url('../assets/login-background.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	box-shadow: inset 0 0 200px black;
+
+}
+
+.login-inner {
+	width: 400px;
+	height: 800px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: #fff;
+}
+
+.login-header {
+	font-size: 48px;
+	font-weight: 600;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	margin: 20px;
+}
+
+.login-subheader {
+	color: #000;
+	font-size: 30px;
+	font-weight: 600;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+.login-card {
+    background-color: rgba(0,0,0,0.6);
+}
+
+.login-card .btn, .login-form .btn {
+    background-color: #1D60A6;
+}
+
+.login-form .btn-login {
+    background-color: #12AA78;
+}
+
+.login-form .btn-login:hover {
+    background-color: #008D5F;
+}
+
+.login-card .card-image img{
+	object-fit: none;
+	height: 150px;
+	width: 400px;
+    opacity: 0.5;
+}
+
+.login-card .card-title {
+	font-weight: 600;
+	font-size: 24px;
+	margin-left: 16px;
+}
+
+.login-card button {
+	margin-bottom: 10px;
+}
+
+::placeholder {
+	color: #000 !important;
+	font-weight: 400
+}
+
+.btn-login {
+	width: 100%;
+}
+
+.login-menu-outer {
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 2px;
+}
+
+@media (min-width: 400px) {
+	.login-menu-outer {
+		width: 400px;
+	}
+}
+
+.centered-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.centered-box.full {
+    min-height: 95vh;
+}
+.centered-box.part {
+    min-height: 75vh;
+}
+.centered-box > .ra-linear-loader-inner {
+    width: 30vw;
+    background-color: rgb(255, 133, 27);
+}
+.centered-box > .ra-linear-loader-inner > .ra-linear-loader-background {
+    background-color: rgb(255, 200, 153);
+}
+.error-message {
+    background-color: #bc010a;
+    border-radius: 5px;
+    width: 400px;
+    margin-bottom: 5px;
+    padding: 0.2em;
+}
+
+
+@media (max-width: 768px) {
+	.login-card .card-image img{
+		width: 350px;
+	}
+
+	.login-outer {
+		box-shadow: inset 0 0 150px black;
+	}
+
+	.margin {
+		margin-top: 10px;
+	}
+}
+
+@media (max-width: 768px) {
+	.login-card .card-image img{
+		width: 300px;
+	}
+
+}

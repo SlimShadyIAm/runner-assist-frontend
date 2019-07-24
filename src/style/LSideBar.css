@@ -1,0 +1,40 @@
+div.ls-bar {
+    padding: 1em;
+}
+div.ls-bar.left-side-bar-open {
+    width: 20em;
+}
+div.ls-bar.left-side-bar-closed {
+    width: 6em;
+}
+div.hamburger-menu {
+    width: 5em;
+    height: 2em;
+    padding: 0 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+div.hamburger-menu > div.menu-line {
+    height: 4px;
+    width: 3.5em;
+    background-color: #061A22;
+    border-radius: 30px;
+}
+div.ls-bar.left-side-bar-open .hamburger-menu {
+    transition-duration: 0.3s;
+    transform: translateX(2em) rotate(90deg);
+}
+div.ls-bar.left-side-bar-open .ls-menu-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+div.ls-bar.left-side-bar-open .ls-menu-header .ls-menu-header-text {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    margin: 0 auto;
+    padding: 0.5em 2em;
+}
